@@ -1,0 +1,4 @@
+//Day la file js vs 2 chuc nang: -goi den form follow
+				//- thay doi so ng follow
+$("#follow_form").html("<%= escape_javascript(render('users/follow')) %>")
+$("#followers").html('<%= @user.followers.count %>')
